@@ -1,0 +1,30 @@
+<header>
+
+    <h1>Employee Login</h1>
+  
+  </header>
+  
+    <div class="image">
+  <img src="assets\logo_m2.png">
+  </div>
+  
+  
+  <div class="formy">
+    <form [formGroup]="loginform"  (ngSubmit)="signin()">
+      <table>
+        <tr>
+          <th>Empolyee Id</th>
+          <td class="data"><input type="text" formControlName="employeeid" class="formcontrol" required=""></td>
+        </tr><br>
+        <tr>
+          <th>Password</th>
+          <td class="data"><input type="text"  formControlName="password" class="formcontrol" required=""></td>
+        </tr>
+      </table>
+      <button style="border: none;margin-left: 50%;margin-top:20px;font-size: 15px;background-color: white;">Forgot password</button>  <br>
+        <button type="submit" style="border: none;margin-left: 100%; background-color:dodgerblue;border-radius: 30px;padding: 15px 20px;
+        margin-top: 20px;">Enter</button>
+  
+    </form>
+  </div><br>
+  

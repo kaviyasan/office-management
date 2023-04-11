@@ -1,0 +1,128 @@
+<div class="bg"><h1>Details</h1><br>
+<ng-container *ngFor="let la of ans ">
+  <table>
+   
+    <tr>
+      <th>Employee ID </th>
+      <td>{{la.id}}</td>
+    </tr><br>
+    
+    <tr class="c1">
+      <th>Employee Name</th>
+      <td> {{la.Name}}</td>
+    </tr>
+   
+    <br>
+   
+      <tr>
+        <th>Father's Name</th>
+        <td> {{la.Father_Name}}</td>
+      </tr>
+      <br>
+    
+        <tr class="c1">
+          <th>Date Of Join</th>
+          <td> {{la.Date_of_Join}}</td>
+        </tr>   <br>
+      
+          <tr>
+            <th>Permenant Date</th>
+            <td>{{la. M2_Permenant_Date}}</td>
+          </tr>   <br>
+        
+            <tr class="c1">
+              <th>Date Of Resignation</th>
+              <td>{{la.Date_of_Resignation}}</td>
+            </tr>   <br>
+           
+              <tr>
+                <th>Date Of Birth</th>
+                <td>{{la. Date_of_Birth}}</td>
+              </tr>   <br>
+
+              <tr class="c1">
+                <th>Gender</th>
+                <td>{{la.gender}}</td>
+              </tr>
+             
+                <tr>
+                  <th>Mobile Number</th>
+                  <td>{{la.Mobile_NO}}</td>
+                </tr>   <br>
+                
+                  <tr class="c1">
+                    <th>Postal Address</th>
+                    <td>{{la.Postal_Address}}</td>
+                  </tr>   <br>
+                 
+                    <tr>
+                      <th>Name Of Nominee</th>
+                      <td>{{la.Name_of_Nominee}}</td>
+                    </tr>   <br>
+                  
+                      <tr class="c1">
+                        <th>Salery</th>
+                        <td>{{la.Salary}}</td>
+                      </tr>   <br>
+                     
+                        <tr>
+                          <th>Designation</th>
+                          <td>{{la.Designation}}</td>
+                        </tr>   <br>
+                      
+                          <tr class="c1">
+                            <th>Aadhar Number</th>
+                            <td>{{la.Aadhar_No}}</td>
+                          </tr>   <br>
+                         
+                            <tr>
+                              <th>Pan Number</th>
+                              <td>{{la.PAN}}</td>
+                            </tr>   <br>
+                          
+                              <tr class="c1">
+                                <th>Bank Account Number</th>
+                                <td>{{la.Bank_AC_Number}}</td>
+                              </tr>   <br>
+                              
+                                <tr>
+                                  <th>IFSC code</th>
+                                  <td>{{la.IFSC_code}}</td>
+                                </tr>   <br>
+                                
+                                  <tr class="c1">
+                                    <th>Employee Status</th>
+                                    <td>{{la.Emp_status}}</td>
+                                  </tr>   <br>
+                                 
+                                    <tr>
+                                      <th>Company Name </th>
+                                      <td>{{la.Company_Name}}</td>
+                                    </tr>  
+                                   
+    </table>
+    <br>
+    
+    <!-- <div class="table">
+<div class="row"><strong>Employee ID <span>:</span></strong> <p>{{la.id}}</p></div><br>
+<div class="row"> <strong>Employee Name<span>:</span></strong><p> {{la.Name}}</p></div><br>
+   <p> <strong>Father's Name:</strong> {{la.Father_Name}}</p><br>
+     <p><strong>Date Of Join</strong> {{la.Date_of_Join}}</p><br>
+      <p><strong>Permenant Date:</strong>{{la. M2_Permenant_Date}}</p><br>
+      <p><strong>Date Of Resignation:</strong>{{la.Date_of_Resignation}}</p><br>
+      <p><strong>Date Of Birth:</strong>{{la. Date_of_Birth}}</p><br>
+      <p><strong>Mobile Number:</strong>{{la.Mobile_NO}}</p><br>
+      <p><strong>PostalAddress:</strong>{{la.Postal_Address}}</p><br>
+      <p><strong>Nmae Of Nominee:</strong>{{la.Name_of_Nominee}}</p><br>
+      <p><strong>Salary:</strong>{{la.Salary}}</p><br>
+      <p><strong>Designation:</strong>{{la.Designation}}</p><br>
+      <p><strong>Aadhar card.No:</strong>{{la.Aadhar_No}}</p><br>
+      <p><strong>PAN card.No:</strong>{{la.PAN}}</p><br>
+      <p><strong>Bank Account.No:</strong>{{la.Bank_AC_Number}}</p><br>
+      <p><strong>IFSC code:</strong>{{la.IFSC_code}}</p><br>
+      <p><strong>Employee status:</strong>{{la.Emp_status}}</p><br>
+      <p><strong>Company Name:</strong>{{la.Company_Name}}</p><br>
+      </div> -->
+      <button type="submit" mat-raised-button color="accent" (click)="rturn()" class="btn">OK</button>
+  </ng-container>
+  </div>

@@ -1,0 +1,14 @@
+<div class="center">
+   <div class="img">
+      <img src="../../assets/logo_m2.png" alt="">
+   </div>
+   <h1><strong>Upload Employee Detail File</strong></h1>
+   <div class="file">
+     <form>
+       <input type="file" accept=".csv" (change)="onChange($event)">
+       <button mat-raised-button color="primary" type="submit" (click)="fileUpload()" name="csvFile">Submit</button>
+   </form>
+   </div>
+    
+  </div>
+  

@@ -1,0 +1,102 @@
+
+<div class="payroll">
+<div class="img">
+    <img src="/assets/DS LOGO(1).png" height="100px" width="100px">
+</div><br>
+<h1> Digerati Software Development and Services LLP<br> 
+    Payslip for the month May 2022 <br>
+    Financial Period 2022-2023<br> <br>
+    </h1>
+    <br>
+    <div class="table"> 
+    <table  *ngFor="let a of empDetails">
+        <!-- <div class="table1"> -->
+        <tr>
+            <th  colspan="4">Employee Information </th>
+        </tr>
+        <tr>
+            <td class="th1"  colspan="4">{{a.name}}</td>
+        </tr>
+        <tr>
+            <td>Employee ID</td>
+            <td>{{a.empId}}</td>
+            <td>Designation</td>
+            <td>  {{a.designation}}   </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>Male</td>
+            <td>Date Of Joining</td>
+            <td> {{a.date_of_join}}   </td>
+        </tr>
+        <tr>
+            <td>PAN</td>
+            <td>{{a.pan}}</td>
+            <td> Bank Account</td>
+            <td> {{a.ac_no}} </td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td></td>
+            <td>Loss of Pay</td>
+            <td>{{a.lop}}</td>
+        </tr>
+        <!-- </div> -->
+        </table><br>
+  <div class="table2">
+        <table *ngFor="let a of empDetails">
+            <tr>
+                <th>Earnings</th>
+                <th>Amount</th>
+                <th>Deductions</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Basic</td>
+                <td>{{a.basic}}</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>HRA</td>
+                <td>{{a.hra}}</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <!-- <tr>
+                <td>Conveyance</td>
+                <td>1500.0</td>
+                <td></td>
+                <td></td>
+            </tr> -->
+            <tr>
+                <td>Other Allowance</td>
+                <td>{{a.allowarnce}}</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+
+                </td>
+            </tr>
+            <tr>
+                <td>Total Earnings</td>
+                <td>{{a.total}}</td>
+                <td>Total Deductions</td>
+                <td>{{a.loss_of_pay}}</td>
+            </tr>
+            <tr>
+                <th colspan="3">Net Salary = ( A ) - ( B )</th>
+                <td>{{a.net_salary}}</td>
+            </tr>
+        </table>
+        </div><br>
+         <div class="buttons">
+            <!-- <button (click)="back()"><i class="fa fa-angle-double-left"></i> back</button> -->
+        <button (click)="print()" >print</button>
+        <!-- <button (click)="back()"><i class="fa fa-angle-double-left"></i> back</button> -->
+        </div>
+         
+    
+           </div>

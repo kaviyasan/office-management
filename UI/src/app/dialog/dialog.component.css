@@ -1,0 +1,30 @@
+.btn{
+   
+    float: right;
+}
+table{
+  
+   width: 100%;
+   box-shadow: 2px 2px 8px 3px pink;
+  
+   border-collapse:collapse ;
+  
+}
+td{
+    text-align: center;
+}
+th ,td{
+    border: none;
+    font-size: small;
+   
+   
+}
+.c1{
+    background-color: rgb(171, 233, 244);
+}
+h1{
+    text-shadow: 1px 2px 3px rgb(241, 185, 117);
+    text-align: center;
+    color: brown;
+    font-weight: bolder;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+
+header{
+   background-color: #2596be;
+   padding-top: 10px;
+   border: solid;
+ 
+}
+h1{
+    padding-left:40%;
+    padding-bottom:2% ;
+}
+.image{
+    position: relative;
+    padding-left: 10%;
+    
+}
+img{
+    height: 50%;
+    width: 30%;
+    padding-left: 29%;
+    padding-top:10%
+}
+.formy{
+    display: flex;
+    padding-left: 37%;  
+    height: 10%;  
+    width: -70%;
+    margin-top: 2%;
+ 
+}
+input{
+    margin-left: 40px;  
+}
+th{
+    text-align: left; 
+}
+

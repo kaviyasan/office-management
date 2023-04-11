@@ -1,0 +1,148 @@
+
+<div class="title">
+  <div class="logout">
+    <button class="b1" (click)="signout()"><i class="fa fa-sign-out" aria-hidden=""></i><span>log out</span></button></div>
+    <h1>DASHBOARD </h1>
+    <div class="image">
+    <img src="assets/logo_m2.png"></div>
+
+    <div class="daydatetime">
+    
+    <div style="display: flex;margin-left: 60px;">
+      <div>{{day}}</div>&nbsp;&nbsp;&nbsp;
+      <div>{{local}}</div>
+      &nbsp;&nbsp;&nbsp;
+      <div class="time">
+    
+        <div>
+            {{hr}}:
+        </div>
+        <div>
+            {{min}}:
+        </div>
+        <div>
+             {{sec}}
+        </div>
+
+        <div>
+             {{dan}}
+        </div>
+     </div>
+    </div>
+   
+
+     
+
+
+    </div>
+
+    
+    <div class="colo">
+    <div class="search">
+    <input type="text" name="" id="">
+    <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+</div>
+
+
+</div>
+<br><br>
+<div class="box">
+<div class="box1">
+    <div class="buttons">
+    <button class="b2">Home </button>
+    <button class="b2">
+        <a class="active">Users Group<i class="fa fa-chevron-right" aria-hidden="true"></i></a></button>
+    <button class="b2" (click)="file()">Admin<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+    <button class="b2">Clients<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+    <button class="b2">Planning & Scheduling<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+    <button class="b2">Approvals<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+    <button class="b2" (click)="offerLetter()">Offer Letter<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+    <button class="b2">Payroll<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+    <button class="b2">Documents<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+    </div>
+</div>
+<div class="box2">
+    <div class="card">
+    <mat-card (click)="details()" class="example-card">
+        <mat-card-header>
+          <mat-card-title>Total Employees</mat-card-title>
+          </mat-card-header>
+        <mat-card-content>
+          <p class="p1">{{employees}}</p>
+         </mat-card-content>
+      </mat-card>
+      <mat-card  (click)="details1()"class="example-card1">
+        <mat-card-header>
+          <mat-card-title>Total active</mat-card-title>
+          </mat-card-header>
+        <mat-card-content>
+          <p class="p2">{{ac}}</p>
+         </mat-card-content>
+      </mat-card>
+      <mat-card (click)="details2()" class="example-card2">
+        <mat-card-header>
+          <mat-card-title>Total Inactive</mat-card-title>
+          </mat-card-header>
+        <mat-card-content>
+          <p class="p3">{{ic}}</p>
+         </mat-card-content>
+      </mat-card>
+      <mat-card class="example-card3">
+        <mat-card-header>
+          <mat-card-title>Department</mat-card-title>
+          </mat-card-header>
+        <mat-card-content>
+          <!-- <p class="p3">{{ic}}</p> -->
+         </mat-card-content>
+      </mat-card>
+      </div>
+      <div class="card2">
+      <mat-card class="example-card4">
+        <mat-card-header>
+          <mat-card-title>Leave Approval Pending</mat-card-title>
+          </mat-card-header>
+      </mat-card>
+    
+        <mat-card class="example-card5">
+          <mat-card-header>
+            <mat-card-title>Leave Approved</mat-card-title>
+            </mat-card-header>
+            </mat-card>
+            <mat-card class="example-card5">
+                <mat-card-header>
+                  <mat-card-title>No Present Today</mat-card-title>
+                  </mat-card-header>
+                  </mat-card>
+            
+        </div>
+        <div class="card3">
+            <mat-card class="example-card6">
+                <mat-card-header>
+                  <mat-card-title>No Present Today</mat-card-title>
+                  </mat-card-header>
+                  </mat-card>
+
+
+        </div>
+
+      
+</div>
+<!-- <div class="message">
+    <div class="col1">
+    <p>Message Window</p>
+    
+    <hr class="h">
+    </div>
+    <div class="b">
+    <hr class="h1">
+  
+    <p>Type message</p>
+    </div> -->
+
+<!-- </div> -->
+
+</div>
+
+           
+   

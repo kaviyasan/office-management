@@ -1,0 +1,59 @@
+@page { size: auto;  margin: 0mm; }
+.img{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    margin-top:150px ;
+    font-weight: bolder;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 62%;
+    margin-left: 150px;
+    position:relative;
+}
+tr,th,td{
+    height: 30px;
+}
+th{
+    background-color: rgba(167, 165, 165, 0.623);
+}
+td{
+    text-align: center;
+}
+.table2{
+    margin-top:50px;
+}
+@media print{
+    button{display: none;}
+}
+/* button{
+    background-color: sandybrown;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    float: right;
+    margin-right: 420px;
+    font-weight: bolder
+} */
+button{
+    float: right;
+    /* margin-right: 300px; */
+   
+    background-color: sandybrown;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    
+}
+.buttons{
+    /* width: 00%; */
+    margin-right: 500px;
+    
+}
